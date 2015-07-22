@@ -1,0 +1,93 @@
+<resources>
+
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowBackground">@color/translucent_black</item>
+        <item name="android:clickable">true</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnimation</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_dialog</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_down</item>
+    </style>
+
+
+    <!--ACTIONBAR-->
+
+
+    <style name="splash" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+
+    </style>
+
+
+    <style name="order_menu_tabitem">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="order_menu_tabTextview" parent="order_menu_tabitem">
+        <item name="android:textColor">#fff</item>
+        <item name="android:drawablePadding">5dp</item>
+
+    </style>
+
+
+
+    <style name="edittext">
+        <item name="android:background">@color/view_et_bg</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColorHint">@color/text_color_hint</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@null</item>
+    </style>
+
+    <style name="edittext_profile" parent="edittext">
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:drawableRight">@android:drawable/ic_menu_edit</item>
+        <item name="android:textColor">#000</item>
+
+    </style>
+
+
+
+    <style name="button">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">@dimen/textAppearanceMedium</item>
+        <item name="android:textColor">@color/text_color_button</item>
+        <item name="android:background">@null</item>
+    </style>
+
+
+
+    <style name="TwoWayView">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!-- ###########################################################################-->
+    <!-- ###########################################################################-->
+    <!-- ###########################################################################-->
+    <style name="MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+        <item name="android:windowBackground">@null</item>
+        <item name="homeAsUpIndicator">@null</item>
+        <item name="android:homeAsUpIndicator">@null</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:displayOptions">showHome|homeAsUp|showTitle</item>
+        <item name="displayOptions">showHome|homeAsUp|showTitle</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+
+    <style name="CustomActionBarTheme" parent="android:Theme.Light">
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+</resources>

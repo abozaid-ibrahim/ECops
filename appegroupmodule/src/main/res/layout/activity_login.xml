@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Sign in with:"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <Button
+            android:id="@+id/login_with_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#46639d"
+
+
+            android:text="facebook" />
+
+        <Button
+            android:id="@+id/login_with_twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="#55acee"
+            android:text="Twitter" />
+
+        <Button
+            android:id="@+id/login_with_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:background="#dd5555"
+            android:text="google" />
+
+        <Button
+            android:id="@+id/login_with_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+
+            android:background="#BBBBBB"
+            android:text="Email" />
+        <Button
+          android:text="SKIP"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+
+            android:id="@+id/login_skip_button"
+            android:layout_gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

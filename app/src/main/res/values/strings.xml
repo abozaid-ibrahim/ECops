@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">E Cops Platform</string>
+
+  <string name="cheese_ipsum">Jarlsberg lancashire edam. Dolcelatte hard cheese brie st. agur blue
+    cheese caerphilly bavarian bergkase cheese and biscuits mascarpone. Cheeseburger swiss bavarian
+    bergkase cream cheese fromage frais cheesy feet port-salut airedale. St. agur blue cheese rubber
+    cheese caerphilly cheddar cheesecake cream cheese manchego lancashire. Roquefort squirty cheese
+    the big cheese.</string>
+  <string name="checkin">Checkin</string>
+  <string name="menu_settings">Settings</string>
+
+  <string name="fb_app_id"></string>
+  <string name="parse_app_id"></string>
+  <string name="parse_client_id"></string>
+  <string name="twitter_consumer_key"></string>
+  <string name="twitter_consumer_secret"></string>
+
+
+<!---->
+
+  <string name="create_account">Create Account</string>
+  <string name="test_short">think</string>
+  <string name="test_long"> think thinkthink thinkthink thinkthink thinkthink thinkthink thinkthink think</string>
+
+  <string name="hello_world">Hello world!</string>
+  <string name="action_settings">Settings</string>
+
+  <string name="home">Home</string>
+  <string name="service">Service</string>
+  <string name="offers">Offers</string>
+  <string name="contact_us">Contact Us</string>
+  <string name="call">Call</string>
+  <string name="share">Share</string>
+  <string name="phone_lbl">"Phone: "</string>
+  <string name="mobile_lbl">"Mobile: "</string>
+  <string name="mobile">"Mobile"</string>
+  <string name="website_lbl">"Website: "</string>
+  <string name="fax_lbl">"Fax: "</string>
+  <string name="opHrs_lbl">"Opening Hours: "</string>
+  <string name="email_lbl">"E-mail: "</string>
+  <string name="facebook_lbl">"Facebook: "</string>
+  <string name="email">E-mail</string>
+  <string name="send">Send</string>
+  <string name="avaliability">Avaliability</string>
+  <string name="connection_slow">Connnection is slow</string>
+  <string name="sure2exit">Are you sure you want to close ?</string>
+  <string name="subject">Subject</string>
+  <string name="message">Message</string>
+  <string name="whats_new">"What's New"</string>
+  <string name="location">Location</string>
+  <string name="about_us">About Us</string>
+  <string name="no_fb_app">No facebook app installed !</string>
+  <string name="find_us_google">Find Our App On Google Play</string>
+  <string name="msg_sent">Message has been sent</string>
+  <string name="news">News</string>
+  <string name="news_details">News Details</string>
+  <string name="gallery">Gallery</string>
+  <string name="brands">Brands</string>
+  <string name="subscription">Subscription</string>
+  <string name="subscribe">Subscribe</string>
+  <string name="offer_details">Offer Details</string>
+  <string name="enter_email">Please Enter Email !</string>
+  <string name="enter_name">Please check Your Name !</string>
+  <string name="enter_message">Please Enter Your Message !</string>
+  <string name="enter_question">Please Enter Your Question !</string>
+  <string name="enter_correct_mail">Invalid email address !</string>
+  <string name="enter_mobile">Please Enter Your Mobile !</string>
+  <string name="enter_field">This field is required !</string>
+  <string name="enter_subject">Please Enter Subject !</string>
+  <string name="enter_feed">Please Enter feedback message !</string>
+  <string name="question_sent">Question sent successfully</string>
+  <string name="loading">Loading ....</string>
+
+  <string name="partners">Partners</string>
+  <string name="products">Products</string>
+  <string name="events">Events</string>
+  <string name="share_app">Share App</string>
+  <string name="buy">Buy</string>
+  <string name="details">Details</string>
+  <string name="ask_team">Ask our Team</string>
+  <string name="pro_details">Product Details</string>
+  <string name="service_details">Service Details</string>
+  <string name="name">Name</string>
+  <string name="twitter">Twitter</string>
+  <string name="face">Facebook</string>
+  <string name="question">Question</string>
+  <string name="noti">Notification</string>
+  <string name="hotline_lbl">"Hotline: "</string>
+  <string name="address_lbl">"Address: "</string>
+  <string name="address">"Address"</string>
+  <string name="search">Search</string>
+  <string name="sure2remove">Are you sure you want to remove this item ?</string>
+  <string name="cancel">Cancel</string>
+  <string name="ok">OK</string>
+  <string name="no_net">Check you connection.</string>
+  <string name="net_chkr">Data Connection</string>
+  <string name="of">OF</string>
+  <string name="access">Access</string>
+  <string name="unavailable">Unavailable</string>
+  <string name="call_branch">Call Branch</string>
+  <string name="status">Status</string>
+  <string name="from_date">From Date</string>
+  <string name="to_date">To Date</string>
+  <string name="price">Price</string>
+  <string name="price_lbl">Price:</string>
+  <string name="reject">Reject</string>
+  <string name="accept">Accept</string>
+  <string name="feedback">Feedback</string>
+  <string name="share_face">Share on facebook</string>
+  <string name="share_twitter">Share on twitter</string>
+  <string name="share_email">Send app via e-mail</string>
+  <string name="share_sms">Send app via SMS</string>
+  <string name="share_google">Share app on google plus</string>
+  <string name="slider">Slider</string>
+  <string name="image_desc">image</string>
+  <string name="wish_list">Wish List</string>
+  <string name="old_price">Old Price</string>
+  <string name="plz_wait">Please wait...</string>
+  <string name="succ_add2wish">Added to wish list successfully</string>
+  <string name="succ_order">Your order sent successfully</string>
+  <string name="succ_remove_wish">Removed from wish list successfully</string>
+  <string name="order">Order</string>
+  <string name="not_fine">Something went wrong</string>
+  <string name="succ_msg">Message sent successfully</string>
+  <string name="succ_qus">Question sent successfully</string>
+  <string name="cant_get_loc">Check mobile setting can not get your location</string>
+  <string name="share_with">Share with</string>
+  <string name="navigate">Navigate</string>
+  <string name="no_twitter_acc">No twitter account is Available now</string>
+  <string name="no_aval_acc">No account is available now</string>
+  <string name="go_offline">Go offline</string>
+  <string name="no_email_app">No email app found</string>
+  <string name="persons_num">Persons number</string>
+  <string name="change">Change</string>
+  <string name="time">Time</string>
+  <string name="date">Date</string>
+  <string name="repeat">REPEAT</string>
+  <string name="everyday">Every Day</string>
+  <string name="week">Week</string>
+  <string name="day_onoff">Day on Day off</string>
+  <string name="note">Notes</string>
+  <string name="write_post">Write Post</string>
+  <string name="camera">Camera</string>
+  <string name="desc">Description</string>
+  <string name="title">Title</string>
+
+
+  <string name="after_meal">After the meal</string>
+  <string name="in_mid_meal">In mid of the meal</string>
+  <string name="before_meal">Before the meal</string>
+  <string name="add_reminder">Add Reminder</string>
+  <string name="search_medicine_to_remind">Search for medicine to remind</string>
+  <string name="send_order">Send Order</string>
+  <string name="upload_image">Upload Image</string>
+  <string name="choose_medicine">Choose Medicine</string>
+  <string name="order_all">Order All</string>
+  <string name="suc_alarm_set">Alarm set successfully</string>
+  <string name="invalid_date">Check your dates</string>
+  <string name="reminder">Medicine Reminder</string>
+  <string name="scanNsend">Scan and Order</string>
+  <string name="quantitiy">Quantity</string>
+  <string name="item_added_before">The Item added before</string>
+  <string name="enter_quantitiy">Enter a quantity</string>
+  <string name="total_price">Total Price:</string>
+  <string name="no_items">No items to order, please add item or scan your prescription</string>
+  <string name="not_customer">Please choose new customer your number not registered</string>
+  <string name="sending_order">Sending order...</string>
+  <string name="scan_recipe">Scan Prescription</string>
+  <string name="addItem">Add Item</string>
+  <string name="medicine_type">Medicine Type</string>
+  <string name="dosage">Dosage</string>
+  <string name="meal_consider" />
+  <string name="month">Month</string>
+  <string name="breakfast">Breakfast</string>
+  <string name="lunch">Lunch</string>
+  <string name="dinner">Dinner</string>
+  <string name="arabic">العربية</string>
+  <string name="default_rington">AlarmTone ( Default Alarm )</string>
+  <string name="ringtone">AlarmTone</string>
+
+  <string name="speech_prompt">Say something&#8230;</string>
+  <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+  <string name="tap_on_mic">Tap on mic to speak</string>
+  <string name="title_activity_user_guide">User Guide</string>
+  <string name="enable_voice_search">Enable voice search</string>
+  <string name="succ_saved">Image saved successfully</string>
+  <string name="saving">Saving...</string>
+  <string name="check_time">Please check time to remind !</string>
+  <string name="dashboard">Dashboard</string>
+  <string name="ask_pharmacist">Ask Pharmacist</string>
+  <string name="mycart">MyCart</string>
+  <string name="done">Done</string>
+  <string name="save">Save</string>
+  <string name="signin">Sign In</string>
+  <string name="enter_password">Enter Password</string>
+  <string name="invalid_user_or_pw">The password you entered is incorrect. Please try again.</string>
+  <string name="enter_address">Enter Address</string>
+  <string name="user_exist">Sorry, This user already registered.</string>
+  <string name="password">Password</string>
+
+  <string name="tab_home">Home</string>
+  <string name="contact">Contact Us</string>
+  <string name="contact_pharmland">Contact PharmLand</string>
+  <string name="phone">"Phone: "</string>
+  <string name="app_id">1448244135454708</string>
+  <string name="mobile_hi">"Mobile "</string>
+  <string name="website">"Website: "</string>
+  <string name="fax">"Fax: "</string>
+  <string name="opHrs">"Opening Hours: "</string>
+
+
+  <string name="find_us_play_store"> Find our app on Google Play Store </string>
+  <string name="succ_feedback">Message has been sent</string>
+
+  <string name="subscripton">Subscription</string>
+  <string name="subscrip">Subscribe</string>
+
+
+  <string name="slider_title">"Slider"</string>
+  <string name="no_fb">No facebook application</string>
+  <string name="title_activity_test">TestActivity</string>
+  <string name="wishlist">Wish List</string>
+
+  <string name="suc_msg">Message sent succssfully</string>
+  <string name="suc_qus">Question sent succssfully</string>
+  <string name="share_via">Share with</string>
+  <string name="img_desc">Image </string>
+  <string name="callBranch">Call Branch</string>
+
+
+  <string name="medicine_name">Medicine Name</string>
+  <string name="signup">Sign Up</string>
+  <string name="login">Log In</string>
+  <string name="company">Company</string>
+  <string name="goOffline">Go offline</string>
+  <string name="hotline">Hotline</string>
+  <string name="city">City</string>
+  <string name="city_lbl">City:</string>
+  <string name="zone_lbl">Zone:</string>
+  <string name="male">Male</string>
+  <string name="female">Female</string>
+  <string name="gender_lbl">Gender:</string>
+  <string name="quantitiy_cantbe_zero">Please enter right quantity,it can\'t be zero.</string>
+  <string name="waiting">Waiting</string>
+  <string name="in_progress">In Progress</string>
+  <string name="total">Total</string>
+  <string name="pricing">Pricing</string>
+  <string name="delivary">Delivary</string>
+  <string name="username">UserName</string>
+  <string name="canceled">Canceled</string>
+  <string name="add">ADD</string>
+
+
+  <string name="order_page">Order Page</string>
+  <string name="orders_lbl">Orders:</string>
+  <string name="views_lbl">Views:</string>
+  <string name="calls_lbl">Calls:</string>
+  <string name="shares_lbl">Shares:</string>
+  <string name="logout">Log Out</string>
+
+  <string name="delivered">Delivered</string>
+  <string name="order_cancelled">Order Cancelled.</string>
+  <string name="order_delivered">Order Delivered.</string>
+  <string name="error">Error!</string>
+  <string name="confirm_logout">Are you sure you want to log out now?</string>
+  <string name="title_activity_ui__analyisis_">UI_Analyisis_Activity</string>
+  <string name="confirm">Confirm</string>
+
+
+  <string-array name="dosages">
+    <item>0.5</item>
+    <item>1.0</item>
+    <item>1.5</item>
+    <item>2.0</item>
+    <item>2.5</item>
+    <item>3.0</item>
+    <item>3.5</item>
+    <item>4.0</item>
+  </string-array>
+
+
+  <string-array name="medicine_types">
+    <item>Tablets</item>
+    <item>Syrup</item>
+    <item>Injection</item>
+    <item>Suppository</item>
+    <item>Cream</item>
+    <item>Sachets</item>
+
+  </string-array>
+  <string-array name="users_types">
+    <item>Already a customer</item>
+    <item>New Customer</item>
+
+
+  </string-array>
+
+
+  <string name="succ_alarm_set">Alarm set successfully</string>
+  <string name="timeline">Timeline</string>
+  <string name="received_invoice">Received Invoices</string>
+  <string name="find_medicine">Find Medicine</string>
+  <string name="profile">Profile</string>
+  <string name="suggest_pharmacy">Suggest Pharmacy</string>
+  <string name="facebook">Facebook</string>
+
+  <string name="required">Required</string>
+  <string name="edit">Edit</string>
+  <string name="succ_suggest">Your suggestion sent succesfully.</string>
+  <string name="fail_suggest">Sorry your suggestion failed.</string>
+  <string name="fail_edit_profile">Update fail.</string>
+  <string name="succ_update">Data updated succesfully.</string>
+  <string name="skip">Skip</string>
+</resources>

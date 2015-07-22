@@ -1,0 +1,102 @@
+
+Parse.initialize(this, StaticData.APP_ID,StaticData.CLIENT_KEY);
+    ParseInstallation.getCurrentInstallation().saveInBackground();
+    MyNotifReciever.callbackClass=.class;
+<!--##################### HANDLE YOUR NOTIFICATION IN CALLBACK CLASS ##########################-->
+
+
+    private void checkForNotification() {
+    Intent intent = getIntent();
+    Bundle extras = intent.getExtras();
+    if (extras != null) {
+    String jsonData = extras.getString("com.parse.Data");
+    Log.e("JSSON",":"+jsonData);
+    if (jsonData != null)
+    try {
+
+    JSONObject jsonObject = new JSONObject(jsonData);
+    Log.e("JSON NOTIF=====>",":"+jsonObject);
+    String action = jsonObject.getString("action");
+    String id = jsonObject.getString("objectId");
+    Log.e("JSON NOTIF",""+action+"+id="+id);
+
+    if (action.equalsIgnoreCase("product")) {
+    Intent intentPro = new Intent(HomeActivity.this, ProductsDetailsActivity.class);
+    intentPro.putExtra(StaticData.FLAG, 9);
+    intentPro.putExtra(StaticData.DET_PRO_ID, Long.parseLong(id));
+
+    startActivity(intentPro);
+    } else if (action.equalsIgnoreCase("offer")) {
+    Intent intentPro = new Intent(HomeActivity.this, OffersDetailsActivity.class);
+    intentPro.putExtra(StaticData.OFF_ID, Long.parseLong(id));
+    startActivity(intentPro);
+    } else if (action.equalsIgnoreCase("message")) {
+    try {
+    new NotifMsgDialog(this,jsonObject.getString("alert"),"").show();
+    } catch (JSONException e) {
+    e.printStackTrace();
+    }
+    } else if (action.equalsIgnoreCase("image")) {
+    try {
+    new NotifMsgDialog(this,"",jsonObject.getString("alert")).show();
+    } catch (JSONException e) {
+    e.printStackTrace();
+    }
+    }
+
+    } catch (JSONException e) {
+    e.printStackTrace();
+    }
+    }
+
+    }
+
+
+
+<!--##################### ******** ##########################-->
+<!--##################### PERMISSIONS ##########################-->
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.WAKE_LOCK" />
+<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+<uses-permission android:name="android.permission.VIBRATE" />
+<uses-permission android:name="android.permission.GET_ACCOUNTS" />
+<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!--
+      IMPORTANT: Change "YOUR_PACKAGE.permission.C2D_MESSAGE" in the lines below
+      to match your app's package name + ".permission.C2D_MESSAGE".
+    -->
+<permission android:protectionLevel="signature"
+android:name="YOUR_PACKAGE.permission.C2D_MESSAGE" />
+<uses-permission android:name="YOUR_PACKAGE.permission.C2D_MESSAGE" />
+<!--##################### ******####################-->
+<!--##################### ***PARSE SERVICES ,RECIEVERS ***####################-->
+
+<service android:name="com.parse.PushService" />
+<receiver android:name="com.parse.ParseBroadcastReceiver">
+<intent-filter>
+    <action android:name="android.intent.action.BOOT_COMPLETED" />
+    <action android:name="android.intent.action.USER_PRESENT" />
+</intent-filter>
+</receiver>
+<receiver android:name="com.parse.GcmBroadcastReceiver"
+android:permission="com.google.android.c2dm.permission.SEND">
+<intent-filter>
+    <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+    <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+    <!--
+      IMPORTANT: Change "YOUR_PACKAGE" to match your app's package name.
+    -->
+    <category android:name="YOUR_PACKAGE" />
+</intent-filter>
+</receiver>
+<receiver android:name="com.timore.abuzeidtimore.libs.parse.MyNotifReciever" android:exported="false">
+<intent-filter>
+    <action android:name="com.parse.push.intent.RECEIVE" />
+    <action android:name="com.parse.push.intent.DELETE" />
+    <action android:name="com.parse.push.intent.OPEN" />
+</intent-filter>
+</receiver>
+<!--****************************************************-->

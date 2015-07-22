@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_color_title">#1ea668</color>
+    <color name="text_color_button">#fff</color>
+    <color name="text_color_hint">#A8A8A8</color>
+    <color name="text_color_desc">#000</color>
+
+
+    <color name="view_et_bg">#F8F8F8</color>
+    <color name="view_bg">#F8F8F8</color>
+    <color name="translucent_black">#88888888</color>
+
+    <!-- Progressbar -->
+    <color name="img_pbar_startColor">#0072bc</color>
+    <color name="img_pbar_centerColor">#fff</color>
+    <color name="img_pbar_endColor">#fdf883</color>
+
+</resources>
